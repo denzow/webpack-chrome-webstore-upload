@@ -1,8 +1,8 @@
 {
   "name": "webpack-chrome-webstore-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack-chrome-webstore-upload",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --watch",
@@ -18,7 +18,9 @@
     "url": "https://github.com/denzow/webpack-chrome-webstore-upload/issues"
   },
   "homepage": "https://github.com/denzow/webpack-chrome-webstore-upload#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chrome-webstore-upload": "^0.2.2"
+  },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/chrome": "^0.0.49",

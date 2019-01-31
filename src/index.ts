@@ -1,2 +1,2 @@
-import ChromeWebStoreUpload from './ChromeWebStoreUploadPlugin.js'
+import ChromeWebStoreUpload from './ChromeWebStoreUploadPlugin'
 export = ChromeWebStoreUpload
