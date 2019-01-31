@@ -1,0 +1,35 @@
+{
+  "name": "webpack-chrome-webstore-upload",
+  "version": "1.0.0",
+  "description": "webpack-chrome-webstore-upload",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "client": "webpack --color --config client/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denzow/webpack-chrome-webstore-upload.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denzow/webpack-chrome-webstore-upload/issues"
+  },
+  "homepage": "https://github.com/denzow/webpack-chrome-webstore-upload#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chrome": "^0.0.49",
+    "@types/lodash": "^4.14.65",
+    "@types/node": "^8.5.1",
+    "@types/webpack": "^3.0.13",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^2.3.7",
+    "tslint": "^4.5.1",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
